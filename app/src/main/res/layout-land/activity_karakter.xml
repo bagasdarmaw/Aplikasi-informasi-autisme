@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KarakterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgapp3">
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Karakteristik Anak Autis"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/k1"
+            android:layout_below="@+id/title3"
+            android:layout_marginTop="20dp"
+            android:text="1. Karakteristik Dalam Interaksi Sosial"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/kara1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/k1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:text="@string/kara1"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/k2"
+            android:layout_below="@+id/kara1"
+            android:text="2. Karakteristik Dalam Komunikasi"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/kara2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/k2"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:text="@string/kara2"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/k3"
+            android:layout_below="@+id/kara2"
+            android:text="3. Karakteristik Dalam Perilaku dan Bermain"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/kara3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/k3"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:textColor="#000000"
+            android:text="@string/kara3"
+            />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/kara4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kara3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:textColor="#000000"
+            android:text="@string/kara4"
+            />
+    </RelativeLayout>
+</ScrollView>

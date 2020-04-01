@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PenyebabActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgapp3">
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Penyebab Autisme"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/psikogenik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="70dp"
+            android:text="Faktor Psikogenik"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/penyebab_autisme1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_below="@+id/psikogenik"
+            android:text="@string/penyebab_autisme1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/biologis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_below="@+id/penyebab_autisme1"
+            android:text="Teori Biologis"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/penyebab_autisme2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/penyebab_autisme2"
+            android:layout_below="@+id/biologis"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:id="@+id/keracunan"
+            android:layout_below="@+id/penyebab_autisme2"
+            android:text="Faktor Keracunan Logam Berat"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/penyebab_autisme3"
+            android:layout_below="@+id/keracunan"
+            android:text="@string/penyebab_autisme3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+</ScrollView>
